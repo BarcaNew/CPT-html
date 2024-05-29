@@ -1,0 +1,159 @@
+<!-- index.html (Home Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact- Kyrillos' E-portfolio</title>
+    <link rel="stylesheet" href="\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="poppins" style="margin:0;">
+    <header style="margin:0px;">
+        <nav style="margin:0px;">
+            <ul>
+              <li><a href="#" class="navtitle" style="cursor:default;font-size:25px;text-align:left">Kyrillos Wartan</a></li>
+                <li><a href="\index.html">Home</a></li>
+                <li><a href="\about.html">About</a></li>
+                <li><a href="\contact.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Page content -->
+<div class="content">
+  
+</div>
+<div class="main">
+</div>
+    <main>
+        <h1>Here Are My 7 Best Artifacts</h1>
+        <p>This is the contact page.</p>
+    </main>
+    <main>
+        <p><b>Click Here To View First Artifacts - Wix Website</b>
+        </p>
+        <br>
+        <a href="https://352791768.wixsite.com/google-toronto" target="_blank" class="linkbtn">Wix Website</a>
+        <br>
+        <br/>
+    </main>
+    <main>
+        <h1>About Us</h1>
+        <p>Click Here to See Resume</p>
+        <br>
+        <a href="https://drive.google.com/file/d/1effJ-O1c2V0B5lSoor6XG9E9YiMLGuiX/view?usp=sharing" target="_blank" class="linkbtn">Resume</a>
+        <br>
+        <br/>
+    </main>
+    <style>
+      /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+    </style>
+  </head>
+  <body>
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button class="accordion">Section 3</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+  
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          /* Toggle between adding and removing the "active" class, to highlight the button that controls the panel */
+          this.classList.toggle("active");
+      
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+      
+    </script>
+  
+
+    <footer>
+        <p>© 2024 Website Name</p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>
